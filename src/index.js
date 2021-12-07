@@ -4,6 +4,12 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
+// aws-exports.js located in the src directory of our project. We will use this file to let the React project know about the different AWS resources that are available in our Amplify project.
+// To configure our app with these resources,
+import Amplify from 'aws-amplify';
+import config from './aws-exports';
+Amplify.configure(config);
+
 ReactDOM.render(
   <React.StrictMode>
     <App />
