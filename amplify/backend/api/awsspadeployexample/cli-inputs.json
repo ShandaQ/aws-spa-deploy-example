@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "serviceConfiguration": {
+    "apiName": "awsspadeployexample",
+    "serviceName": "AppSync",
+    "gqlSchemaPath": "/Users/shandakennedy/Documents/sample-aws-spa-deployment/amplifyapp/amplify/backend/api/awsspadeployexample/schema.graphql",
+    "defaultAuthType": {
+      "mode": "API_KEY",
+      "expirationTime": 7
+    }
+  }
+}
